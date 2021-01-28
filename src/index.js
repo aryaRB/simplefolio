@@ -1,6 +1,5 @@
 import initTilt from './js/tilt';
 import initSr from './js/sr';
-import Typed from 'typed.js';
 
 import './style/main.scss';
 
@@ -21,10 +20,3 @@ $('a[href^="#"]').on('click', function(event) {
 
 initSr();
 initTilt();
-// Can also be included with a regular script tag
-
-var typed = new Typed('#typed',{
-  stringsElement: '#typed-strings',
-  backSpeed: 40,
-  typeSpeed: 40
-});
