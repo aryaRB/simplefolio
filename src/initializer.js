@@ -1,4 +1,4 @@
-import defaults from './defaults.js';
+import defaults from '../../src/defaults.js';
 /**
  * Initialize the Typed object
  */
