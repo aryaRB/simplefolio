@@ -23,10 +23,8 @@ initSr();
 initTilt();
 // Can also be included with a regular script tag
 
-
-var options = {
-  strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+var typed = new Typed('#typed',{
+  stringsElement: '#typed-strings',
+  backSpeed: 40,
   typeSpeed: 40
-};
-
-var typed = new Typed('.element', options);
+});
