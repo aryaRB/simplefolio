@@ -23,6 +23,9 @@
   <script>
     ScrollReveal({ reset: false });
   </script>
+  <script src="/src/lib/typed.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
 
   </head>
 
@@ -40,9 +43,23 @@
           <div class="type-wrap">
             <div id="typed-strings">
               <span id="text-span">  Hello, my name is <span class="text-color-main">Aryaraj Barua</span></span>
-              
+              <h2><span id = "typed-strings"></span></h2>
               
             </div>
+            <script>
+            
+              var typed3 = new Typed('#typed-strings', {
+                strings: [' Hello my name is: <i>strings</i> with',
+                           `I am a: UX Designer`, 
+                           'I am a : Product Designer'],
+                typeSpeed: 60,
+                backSpeed: 10,
+                
+                bindInputFocusEvents: true,
+                loop: true
+              });
+                      </script>
+            
             
           </div>
 

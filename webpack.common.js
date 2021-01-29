@@ -2,7 +2,8 @@ const Webpack = require("webpack");
 module.exports = {
   entry: {
     vendor: "./src/vendor.js",
-    main: "./src/index.js"
+    main: "./src/index.js",
+    Typed: './src/typed.js'
     
   },
   module: {
