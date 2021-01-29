@@ -3,7 +3,7 @@ module.exports = {
   entry: {
     vendor: "./src/vendor.js",
     main: "./src/index.js",
-    Typed: './src/typed.js'
+    // Typed: './src/typed.js'
     
   },
   module: {
